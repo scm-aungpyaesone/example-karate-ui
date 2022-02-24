@@ -31,6 +31,4 @@ jobs:
         java-version: '11'
     - name: Build with Maven
       run: |
-        cd /usr/bin
-        ls -l
-        # java -jar karate-1.2.0.RC1.jar test.feature
+        java -jar karate-1.2.0.RC1.jar test.feature
